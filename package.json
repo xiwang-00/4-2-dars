@@ -1,0 +1,16 @@
+{
+  "name": "4-2-dars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/style.css -o ./src/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
